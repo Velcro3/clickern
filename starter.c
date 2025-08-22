@@ -9,5 +9,5 @@ EFI_STATUS
            EFI_SYSTEM_TABLE *SystemTable) {
   InitializeLib(ImageHandle, SystemTable);
   Print(L"Starter.efi payload loaded.\n");
-  return EFI_SUCCESS
+  return EFI_SUCCESS;
 }
